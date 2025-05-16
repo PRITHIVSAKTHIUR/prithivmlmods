@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>others</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/d37659daffef3c45103684a20c5810db?family=Cartograph+CF+Regular" rel="stylesheet" type="text/css"/>
+  <style>
+    @import url("https://db.onlinewebfonts.com/c/d37659daffef3c45103684a20c5810db?family=Cartograph+CF+Regular");
+    :root {
+      --font-family: "Cartograph CF Regular", sans-serif;
+      --text-color: #000;
+      --bg-color: #fff;
+    }
+
+    body {
+      margin: 0;
+      padding: 4rem;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-family);
+    }
+
+    h1 {
+      text-align: center;
+      text-transform: lowercase;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card {
+      border: 2px solid #000;
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 230px;
+      transition: transform 0.2s ease;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .card-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-transform: lowercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-description {
+      font-size: 0.85rem;
+      color: #444;
+      margin-bottom: 0.5rem;
+      text-transform: lowercase;
+    }
+
+    .card-subtitle {
+      color: #777;
+      font-size: 0.85rem;
+      text-transform: lowercase;
+    }
+
+    .downloads {
+      font-size: 0.85rem;
+      position: absolute;
+      bottom: 1rem;
+      left: 1.25rem;
+      color: #333;
+      text-transform: lowercase;
+    }
+  </style>
+</head>
+<body>
+  <h1>others</h1>
+  <div class="grid">
+
+    <a class="card-link" href="https://huggingface.co/prithivMLmods/Llama-3B-Mono-Cooper" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">llama 3b mono cooper</div>
+          <div class="card-description">llama 3b mono cooper is a llama based speech llm designed for high-quality, empathetic text-to-speech generation. this model has been fine-tuned to deliver human-like speech synthesis, achieving exceptional clarity.</div>
+          <div class="card-subtitle">model<span style="color: rgb(0, 255, 30);"> • </span>february 2025</div>
+        </div>
+        <div class="downloads">total downloads: 0.1k+</div>
+      </div>
+    </a>
+        
+    <a class="card-link" href="https://huggingface.co/spaces/prithivMLmods/Text-to-Image" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">text to image sdxl</div>
+          <div class="card-description">text to image sdxl, generates 10+ images within 25 seconds using the realism v5 lightning model. it uses the gradio sdk and runs on the nvidia h200 gpu. click the card to visit the demo.</div>
+          <div class="card-subtitle">sapce<span style="color: rgb(0, 255, 30);"> • </span>november 2024</div>
+        </div>
+        <div class="downloads">total visits: 25.8k+</div>
+      </div>
+    </a>
+
+     <a class="card-link" href="https://huggingface.co/spaces/prithivMLmods/core-OCR" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">core ocr</div>
+          <div class="card-description">core ocr space for experimenting with the coreocr-7b-050325, tailored for tasks involving improved document-level optical character recognition (ocr). it runs on nvidia h200.</div>
+          <div class="card-subtitle">space<span style="color: rgb(0, 255, 30);"> • </span>march 2025</div>
+        </div>
+        <div class="downloads">total visits: 84.1k+</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://huggingface.co/spaces/prithivMLmods/Save-Web-as-ZIP" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">save web as zip</div>
+          <div class="card-description">save the entire webpage as a zip file, scraping all web content from the url you provide. it retrieves all content including [html, css, js,] and more from the web links. click the card to visit the demo.</div>
+          <div class="card-subtitle">tool<span style="color: rgb(0, 255, 30);"> • </span>june 2024</div>
+        </div>
+        <div class="downloads">total visits: 0.5k+</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://huggingface.co/prithivMLmods/Llama-3B-Mono-Ceylia" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">llama 3b mono ceylia</div>
+          <div class="card-description">llama 3b mono ceylia is a llama based speech llm designed for high-quality, empathetic text-to-speech generation. this model has been fine-tuned to deliver human-like speech synthesis.</div>
+          <div class="card-subtitle">model<span style="color: rgb(0, 255, 30);"> • </span>february 2025</div>
+        </div>
+        <div class="downloads">total downloads: 0.31k+</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://huggingface.co/prithivMLmods/Llama-3B-Mono-Jim" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">llama 3b mono jim</div>
+          <div class="card-description">llama 3b mono jim is a llama based speech llm designed for high-quality, empathetic text-to-speech generation. this model has been fine-tuned to deliver human-like speech synthesis.</div>
+          <div class="card-subtitle">model<span style="color: rgb(0, 255, 30);"> • </span>february 2025</div>
+        </div>
+        <div class="downloads">total downloads: 0.26k+</div>
+      </div>
+    </a>
+    
+    <a class="card-link" href="https://huggingface.co/prithivMLmods/Llama-3B-Mono-Luna" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">llama 3b mono luna</div>
+          <div class="card-description">llama 3b mono luna is a llama based speech llm designed for high-quality, empathetic text-to-speech generation. this model has been fine-tuned to deliver human-like speech synthesis.</div>
+          <div class="card-subtitle">model<span style="color: rgb(0, 255, 30);"> • </span>february 2025</div>
+        </div>
+        <div class="downloads">total downloads: 0.11k+</div>
+      </div>
+    </a>
+   
+  </div>
+</body>
+</html>
