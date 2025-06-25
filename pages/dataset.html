@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>datasets</title>
+  <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+  <link href="https://db.onlinewebfonts.com/c/d37659daffef3c45103684a20c5810db?family=Cartograph+CF+Regular" rel="stylesheet" type="text/css"/>
+  <style>
+    @import url("https://db.onlinewebfonts.com/c/d37659daffef3c45103684a20c5810db?family=Cartograph+CF+Regular");
+    :root {
+      --font-family: "Cartograph CF Regular", sans-serif;
+      --text-color: #000;
+      --bg-color: #faf2e9;
+    }
+
+    body {
+      margin: 0;
+      padding: 4rem;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: var(--font-family);
+    }
+
+    h1 {
+      text-align: center;
+      text-transform: lowercase;
+      font-weight: bold;
+      margin-bottom: 2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card {
+      border: 2px solid #000;
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 230px;
+      transition: transform 0.2s ease;
+      position: relative;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+    }
+
+    .card-title {
+      font-weight: bold;
+      font-size: 1.1rem;
+      text-transform: lowercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .card-description {
+      font-size: 0.85rem;
+      color: #444;
+      margin-bottom: 0.5rem;
+      text-transform: lowercase;
+    }
+
+    .card-subtitle {
+      color: #777;
+      font-size: 0.85rem;
+      text-transform: lowercase;
+    }
+
+    .downloads {
+      font-size: 0.85rem;
+      position: absolute;
+      bottom: 1rem;
+      left: 1.25rem;
+      color: #333;
+      text-transform: lowercase;
+    }
+  </style>
+</head>
+<body>
+  <h1>datasets</h1>
+  <div class="grid">
+
+    <a class="card-link" href="https://huggingface.co/datasets/prithivMLmods/Deepfake-vs-Real-60K" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">deepfake vs real 60k</div>
+          <div class="card-description">deepfake vs real 60k is a large-scale image classification dataset designed to distinguish between deepfake and real facial images. comprising 30,000 deepfake and 30,000 real images.</div>
+          <div class="card-subtitle">dataset<span style="color: red;"> • </span>january 2025</div>
+        </div>
+        <div class="downloads">total downloads: 2k+</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://huggingface.co/datasets/prithivMLmods/Multilabel-Portrait-18K" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">multilabel portrait 18k</div>
+          <div class="card-description">multilabel portrait 18k is a multi-label portrait classification dataset designed to analyze and categorize different styles of portrait images. it supports classification of four portrait types.</div>
+          <div class="card-subtitle">dataset<span style="color: red;"> • </span>april 2025</div>
+        </div>
+        <div class="downloads">total downloads: 1.78k+</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://huggingface.co/datasets/prithivMLmods/Multilabel-GeoSceneNet-16K" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">multilabel geoscenenet 16k</div>
+          <div class="card-description">multilabel geoscenenet 16k is a geospatial image dataset. each image may belong to one or more geographic scene categories, making it suitable for multi-label learning tasks in remote sensing.</div>
+          <div class="card-subtitle">dataset<span style="color: red;"> • </span>april 2025</div>
+        </div>
+        <div class="downloads">total downloads: 0.5k+</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://huggingface.co/datasets/prithivMLmods/Realistic-Face-Portrait-1024px" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">realistic face portrait 1024px</div>
+          <div class="card-description">realistic face portrait 1024px is a high-resolution image dataset containing 6,712 realistic portrait images of male and female individuals. each image is standardized to 1024×1024 pixels.</div>
+          <div class="card-subtitle">dataset<span style="color: red;"> • </span>march 2025</div>
+        </div>
+        <div class="downloads">total downloads: 0.26k+</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://huggingface.co/datasets/prithivMLmods/BnW-vs-Colored-10K" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">bnw vs colored 10k</div>
+          <div class="card-description">bnw vs colored 10k is a curated dataset of 10,000 images designed for binary image classification tasks distinguishing between black & white (bnw) and colored images.</div>
+          <div class="card-subtitle">dataset<span style="color: red;"> • </span>april 2025</div>
+        </div>
+        <div class="downloads">total downloads: 0.17k+</div>
+      </div>
+    </a>
+
+    <a class="card-link" href="https://huggingface.co/datasets/prithivMLmods/Deepfake-vs-Real-1440px-Max" target="_blank" rel="noopener noreferrer">
+      <div class="card">
+        <div>
+          <div class="card-title">deepfake vs real 1440px max</div>
+          <div class="card-description">deepfake vs real 1440px max is a curated dataset of 28,000 portrait images designed for binary image classification tasks between deepfake and real portraits.</div>
+          <div class="card-subtitle">dataset<span style="color: red;"> • </span>april 2025</div>
+        </div>
+        <div class="downloads">total downloads: 0.14k+</div>
+      </div>
+    </a>
+
+  </div>
+</body>
+</html>
